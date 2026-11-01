@@ -1,8 +1,8 @@
 # LINUX_CRUCIAL
 
-A collection of essential Linux system administration, security hardening, and operational runbooks for high-reliability environments.
+A collection of standard Linux administration patterns, kernel-level network security controls, and operational runbooks for high-reliability production environments.
 
 ## Modules
 
-* [SSH Hardening](./ssh-hardening/README.md) – Port migration, stateful brute-force mitigation, and kernel-level connection throttling.
-* *More operational runbooks coming soon.*
+* [SSH Hardening & Brute-Force Mitigation](./ssh-hardening/README.md) – Custom port migration, connection throttling, and stateful rate-limiting via the `recent` module.
+* [Dynamic Access Control & Firewall Automation](./dynamic-firewall-automation/README.md) – Automated, fail-safe Netfilter/iptables orchestration driven by centralized application state.
